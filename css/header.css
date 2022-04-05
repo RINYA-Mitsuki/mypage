@@ -1,38 +1,38 @@
 @charset "UTF-8";
 
 header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    box-shadow: 0px 0px 10px 0px #666666;
-    background-color: #d6d6d6;
-    text-align: center;
-    height: 70px;
-    display: flex;
-    justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0px 0px 10px 0px #666666;
+  background-color: #d6d6d6;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .headerlogo {
-    height: 70%;
-    margin: 10px 20px 0 0;
-    display: flex;
+  height: 70%;
+  margin: 10px 20px 0 0;
+  display: flex;
 }
 
 .headermenu {
-    display: flex;
-    font-family: franklin-gothic-urw,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    align-items: center;
+  display: flex;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  align-items: center;
 }
 
 .headermenu p {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
-.headermenu p a {
-    color: #000;
-    text-decoration: none;
+.headermenu a {
+  color: #000;
+  text-decoration: none;
 }

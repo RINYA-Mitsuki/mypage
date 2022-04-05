@@ -1,36 +1,35 @@
 @charset "UTF-8";
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
-.music{
-    text-align: center;
-    padding: 0 0 100px 0;
+.music {
+  text-align: center;
+  padding: 0 0 100px 0;
 }
 
-.logo{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    padding: 0 110px;
-    gap: 5px;
+.logo {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 0 110px;
+  gap: 5px;
 }
 
-@media screen and ( max-width:1024px) {
-    .logo{
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+.model {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0 110px 100px 110px;
+  gap: 5px;
 }
 
-/*
-.logo{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows : 1fr 1fr;
-    padding: 50px;
+@media screen and (max-width: 1024px) {
+  .logo {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
-*/
 
-.logo img{
-    width: 100%;
+.logo img,
+.model img {
+  width: 100%;
 }

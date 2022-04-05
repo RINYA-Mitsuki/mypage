@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 .titlesquare {
-    position: absolute;
-    z-index: 10;
-    margin: -10px 0 0 -10px;
-    width: 150%;
-    height: 90px;
-    background: #404040;
-    transform-origin: center;
+  position: absolute;
+  z-index: 10;
+  margin: -10px 0 0 -10px;
+  width: 150%;
+  height: 90px;
+  background: #404040;
+  transform-origin: center;
 }
