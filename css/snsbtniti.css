@@ -1,0 +1,28 @@
+
+/* ボタン全体 */
+.flowbtn10{
+    display:inline-block;	
+    font-size:35px;
+    text-decoration:none;
+    transition:.5s;
+    color:#444444;	
+    }
+
+    /* ulタグの内側余白を０にする */
+    ul.snsbtniti{
+    padding:0!important;
+    }
+
+    /* アイコン全体の位置 */
+    .snsbtniti{
+    display:flex;
+    flex-flow:row wrap;
+    margin: -20px 0 20px 150px;
+    }
+
+    /* アイコン同士の余白 */
+    .snsbtniti li{
+    flex:0 0 2%;
+    text-align:center!important;
+    margin: 10px;
+    }
