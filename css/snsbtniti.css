@@ -1,28 +1,63 @@
+@charset "UTF-8";
 
 /* ボタン全体 */
-.flowbtn10{
-    display:inline-block;	
-    font-size:35px;
-    text-decoration:none;
-    transition:.5s;
-    color:#444444;	
-    }
+.twitter,
+.youtube,
+.soundcloud,
+.bandcamp,
+.github,
+.booth {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s;
+  color: #444444;
+  font-size: 20px;
+}
 
-    /* ulタグの内側余白を０にする */
-    ul.snsbtniti{
-    padding:0!important;
-    }
+.twitter:hover {
+  color: #1a8cd8;
+  transform: translateY(-2px);
+}
 
-    /* アイコン全体の位置 */
-    .snsbtniti{
-    display:flex;
-    flex-flow:row wrap;
-    margin: -20px 0 20px 150px;
-    }
+.youtube:hover {
+  color: #ff0000;
+  transform: translateY(-2px);
+}
 
-    /* アイコン同士の余白 */
-    .snsbtniti li{
-    flex:0 0 2%;
-    text-align:center!important;
-    margin: 10px;
-    }
+.soundcloud:hover {
+  color: #ff5500;
+  transform: translateY(-2px);
+}
+
+.bandcamp:hover {
+  color: #1da0c3;
+  transform: translateY(-2px);
+}
+
+.github:hover {
+  color: #777777;
+  transform: translateY(-2px);
+}
+
+.booth:hover {
+  color: #fc4d50;
+  transform: translateY(-2px);
+}
+
+/* ulタグの内側余白を０にする */
+ul.snsbtniti {
+  padding: 0 !important;
+}
+
+/* アイコン全体の位置 */
+.snsbtniti {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* アイコン同士の余白 */
+.snsbtniti li {
+  flex: 0 0 2%;
+  text-align: center !important;
+  margin: 10px;
+}

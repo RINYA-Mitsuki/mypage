@@ -7,16 +7,33 @@ header {
   z-index: 100;
   box-shadow: 0px 0px 10px 0px #666666;
   background-color: #d6d6d6;
-  text-align: center;
-  height: 70px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 }
 
-.headerlogo {
-  height: 70%;
-  margin: 10px 20px 0 0;
+.headercenter {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerright {
+  display: flex;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.headerleft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  margin: 10px 10px;
 }
 
 .headermenu {
@@ -24,15 +41,25 @@ header {
   font-family: franklin-gothic-urw, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
-  align-items: center;
+  font-size: 25px;
 }
 
 .headermenu p {
   margin: 0 10px;
 }
 
-.headermenu a {
-  color: #000;
+.jump,
+.headermenu p {
+  color: #404040;
+  transition: 0.5s;
   text-decoration: none;
+}
+
+.jump:hover {
+  color: #777777;
+  transform: translateY(-2px);
+}
+
+.logocolor {
+  fill: #404040;
 }
