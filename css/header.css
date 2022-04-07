@@ -7,8 +7,8 @@ header {
   z-index: 100;
   box-shadow: 0px 0px 10px 0px #666666;
   background-color: #d6d6d6;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -20,32 +20,38 @@ header {
 
 .headerright {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   font-family: franklin-gothic-urw, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
-  justify-content: flex-end;
-  align-items: center;
+  width: 30vw;
+  margin: 10px;
 }
 
 .headerleft {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100%;
-  margin: 10px 10px;
+  width: 30vw;
+  margin: 10px;
+}
+
+.sm-headerlogo {
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 .headermenu {
   display: flex;
+  justify-content: center;
   font-family: franklin-gothic-urw, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
 }
 
-.headermenu p {
-  margin: 0 10px;
+.headermenu a {
+  margin: 0 5px;
 }
 
 .jump,
@@ -60,6 +66,42 @@ header {
   transform: translateY(-2px);
 }
 
-.logocolor {
-  fill: #404040;
+.dt-logo {
+  align-items: center;
+  visibility: visible;
+}
+
+.sm-logo {
+  visibility: hidden;
+}
+
+.footer-snsbtniti {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 999px) {
+  .headerright {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .headercenter {
+    margin: 10px;
+  }
+
+  .headerleft {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
+  .sm-headerlogo {
+    visibility: visible;
+    width: 50px;
+    margin: 0 10px;
+  }
 }

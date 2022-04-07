@@ -26,29 +26,33 @@
     <!--adobe font-->
     <link rel="stylesheet" href="https://use.typekit.net/llq4pwr.css">
     <script>
-        (function(d) {
-          var config = {
-            kitId: 'ksr2jxy',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        (function (d) {
+            var config = {
+                kitId: 'ksr2jxy',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
     <!--iconset-->
     <script src="https://kit.fontawesome.com/e8580629ef.js" crossorigin="anonymous"></script>
     <!--search keyword-->
-    <meta name="keywords" content="ミツキ,Mitsuki,Mitsuki form,Music,Logo,ロゴ,Logo design,ロゴデザイン,Modeling,モデリング,Eeliaas,Square Lake">
+    <meta name="keywords"
+        content="ミツキ,Mitsuki,Mitsuki form,Music,Logo,ロゴ,Logo design,ロゴデザイン,Modeling,モデリング,Eeliaas,Square Lake">
 </head>
 
 <body>
     <!--header-->
     <header>
         <a class="headerleft" href=”/”>
-            <img class="logocolor" src="image/mitsuki_works.svg" style="height: 50%;">
+            <img src="image/mitsuki_works.svg">
         </a>
         <div class="headercenter">
             <div class="headermenu">
+                <a class="sm-headerlogo" href=”/”>
+                    <img src="image/mitsuki_logo.svg">
+                </a>
                 <a class="jump" href=”#profile”>Profile</a>
                 <p>|</p>
                 <a class="jump" href=”#works”>Works</a>
@@ -58,61 +62,91 @@
         </div>
         <div class="headerright">
             <ul class="snsbtniti" style="font-size: 20px; margin: 0 20px 0 0;">
-                <li><a href="https://twitter.com/mitsuki_hotta" title="Twitter" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://www.youtube.com/c/MitsukiHotta" title="Youtube" class="youtube"><i class="fab fa-youtube"></i></a>
-                <li><a href="https://soundcloud.com/mitsuki_hotta" title="SoundSloud" class="soundcloud"><i class="fa-brands fa-soundcloud"></i></a>
-                <li><a href="https://mitsuki-hotta.bandcamp.com/" title="bandcamp" class="bandcamp"><i class="fa-brands fa-bandcamp"></i></a>
-                <li><a href="https://github.com/RINYA-Mitsuki" title="GitHub" class="github"><i class="fa-brands fa-github"></i></i></a>
-                <li><a href="https://rinya-p.booth.pm/" title="Booth" class="booth"><i class="fa-solid fa-shop"></i></i></i></a>
+                <li><a href="https://twitter.com/mitsuki_hotta" title="Twitter" class="twitter"><i
+                            class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/c/MitsukiHotta" title="Youtube" class="youtube"><i
+                            class="fab fa-youtube"></i></a>
+                <li><a href="https://soundcloud.com/mitsuki_hotta" title="SoundSloud" class="soundcloud"><i
+                            class="fa-brands fa-soundcloud"></i></a>
+                <li><a href="https://mitsuki-hotta.bandcamp.com/" title="bandcamp" class="bandcamp"><i
+                            class="fa-brands fa-bandcamp"></i></a>
+                <li><a href="https://github.com/RINYA-Mitsuki" title="GitHub" class="github"><i
+                            class="fa-brands fa-github"></i></i></a>
+                <li><a href="https://rinya-p.booth.pm/" title="Booth" class="booth"><i
+                            class="fa-solid fa-shop"></i></i></i></a>
             </ul>
         </div>
     </header>
 
     <!--pagetop-->
-    <img src="image/header.png" style="width: 100%; z-index: -500; margin: 0 0 -50 0;">
+    <img src="image/header.png" style="width: 100%; z-index: -500; margin: 0 0 -50px 0;">
 
     <!--main-->
-    <div style="background-color:#e6e6e6; margin: 0 0 0 0; padding: 0 0 0px 0; ">
+    <div style="background-color:#eeeeee;">
 
         <!--profile-->
-        <div class="titlesquare" style="transform:rotate(1deg)"></div>
-        <p id="profile" class="texttitle" style="margin: 0 0 30px 100px;">profile</p>
-        <div style="display: grid; grid-template-columns: 3fr 2fr; ">
-            <div>
-                <pre class="textnormal">
-                HN - ミツキ (a.k.a. りにゃ)
-
-                Birth - 1996/11/17
-
-                Country - 日本 長崎県出身、在住
-
-                Software
-                　Music - Cubase
-                　Logo design - Illustrator, Photoshop
-                　3D Modeling - Blender, Substance 3D Painter
-
-                音楽やロゴデザイン、3Dモデリングを独学で学び、作ってます。
-                コーディングも勉強中です。
-                音ゲーとVRが大好きです。よろしくお願いします。
-                もちもち。
-                </pre>
+        <div class="titlesquare" style="transform:rotate(0.5deg)"></div>
+        <p id="profile" class="texttitle text-profile">profile</p>
+        <div class="profile">
+            <div class="introduction">
+                <p class="textnormal">
+                    HN - ミツキ (a.k.a. りにゃ)</br>
+                    </br>
+                    Birth - 1996/11/17</br>
+                    </br>
+                    Country - 日本 長崎県出身、在住</br>
+                    </br>
+                    Software</br>
+                    　Music - Cubase</br>
+                    　Logo design - Illustrator, Photoshop</br>
+                    　3D Modeling - Blender, Substance 3D Painter</br>
+                    </br>
+                    音楽やロゴデザイン、3Dモデリングを独学で学び、作ってます。</br>
+                    コーディングも勉強中です。</br>
+                    音ゲーとVRが大好きです。よろしくお願いします。</br>
+                    もちもち。
+                </p>
             </div>
-            <a class="twitter-timeline" data-width="500" data-height="550" href="https://twitter.com/mitsuki_hotta?ref_src=twsrc%5Etfw">Tweets by mitsuki_hotta</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="twitter-visible">
+                <div>
+                    <a class="twitter-timeline" data-width="500" data-height="500"
+                        href="https://twitter.com/mitsuki_hotta?ref_src=twsrc%5Etfw">Tweets by mitsuki_hotta</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
         </div>
 
         <!--works-->
         <div class="titlesquare" style="transform:rotate(-1deg)"></div>
-        <p id="works" class="texttitle" style="padding: 30px 0 50px 100px;">Works</p>
-        <p class="textsubtitle" style="padding: 0 0 20px 100px;">- Music -</p>
+        <p id="works" class="texttitle text-works">Works</p>
+        <p class="textsubtitle">- Music -</p>
         <div class="music">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JFSDISK_SCI" title="Ealiaas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Gfapbz0pL4" title="Square Lake" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gtInMh9uawo" title="白狐が望むは茜空の彼方" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/46UtfP8hISw" title="Gochamaze Diversity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fLj2EnG5zO4" title="That's my moment." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rdO7akiLsuU" title="錬金術師と歯車の国" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JFSDISK_SCI" title="Ealiaas"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Gfapbz0pL4" title="Square Lake"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gtInMh9uawo" title="白狐が望むは茜空の彼方"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/46UtfP8hISw" title="Gochamaze Diversity"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fLj2EnG5zO4" title="That's my moment."
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rdO7akiLsuU" title="錬金術師と歯車の国"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-        <p class="textsubtitle" style="padding: 0 0 20px 100px;">- Logo design -</p>
+        <p class="textsubtitle">- Logo design -</p>
         <div class="logo">
             <img src="image/logo/barrierbreakcup.png">
             <img src="image/logo/4.png">
@@ -121,7 +155,7 @@
             <img src="image/logo/pyloricom.png">
             <img src="image/logo/ParallelSider.png">
         </div>
-        <p class="textsubtitle" style="padding: 100px 0 20px 100px;">- 3D model -</p>
+        <p class="textsubtitle">- 3D model -</p>
         <div class="model">
             <img src="image/model/microphone.png">
             <img src="image/model/knife.png">
@@ -131,44 +165,70 @@
 
         <!--contact-->
         <div class="titlesquare" style="transform:rotate(1deg)"></div>
-        <p id="contact" class="texttitle" style="padding: 10px 0 50px 100px;">Contact & Price</p>
-        <pre class="textnormal">
-        依頼、その他の連絡等は、TwitterのDMやメール、下記のフォームにて受け付けております。
-        送信後一週間以内に返信がない場合は、メールアドレスを確認後、もう一度ご連絡していただくかご連絡方法の変更をお試しください。
-        Twitter：<a href="https://twitter.com/mitsuki_hotta" target="_blank">@mitsuki_hotta</a>　　メールアドレス：mitsuki.form@gmail.com
-        
-        基本的に有償とさせていただいています。　詳しい内容、納期や予算に関しては要相談です。
-        内容によっては、スケジュール等の関係から引き受けをお断りさせていただく場合もありますのでご容赦ください。
-        お支払い方法は基本的に銀行振込で対応しております。
-        
-        リアルの都合やタスクキャパシティの関係上、依頼の受付をを停止している可能性があります。
-        Twitterのbioに状況を記載しておりますので、一度そちらの確認をお願いいたします。
-        </pre>
-        <p class="textsubtitle" style="padding: 50px 0 0 100px;">- Price -</p>
-        <pre class="textnormal">
-        あくまで目安ですので、ここから上下する場合もあります。
-        （記載の金額は個人様向けの金額になります。　法人様であれば、まずはご相談からお願い致します。）
-        
-        ・音楽
-        　　基本　　　　￥50,000～
-        　　歌詞込み　＋￥20,000～
-        
-        ・ロゴデザイン
-        　　基本　　　　￥20,000～
-        
-        ・3Dモデル
-        　　基本　　　　￥10,000～
-        </pre>
+        <p id="contact" class="texttitle text-contact">Contact & Price</p>
+        <p class="textnormal">
+            依頼、その他の連絡等は、TwitterのDMやメール、下記のフォームにて受け付けております。</br>
+            送信後一週間以内に返信がない場合は、メールアドレスを確認後、もう一度ご連絡していただくかご連絡方法の変更をお試しください。</br>
+            Twitter：<a href="https://twitter.com/mitsuki_hotta" target="_blank">@mitsuki_hotta</a></br>
+            メールアドレス：mitsuki.form@gmail.com</br>
+            </br>
+            基本的に有償とさせていただいています。　詳しい内容、納期や予算に関しては要相談です。</br>
+            内容によっては、スケジュール等の関係から引き受けをお断りさせていただく場合もありますのでご容赦ください。</br>
+            お支払い方法は基本的に銀行振込で対応しております。</br>
+            </br>
+            リアルの都合やタスクキャパシティの関係上、依頼の受付をを停止している可能性があります。</br>
+            Twitterのbioに状況を記載しておりますので、一度そちらの確認をお願いいたします。
+        </p>
+        <p class="textsubtitle">- Price -</p>
+        <p class="textnormal">
+            あくまで目安ですので、ここから上下する場合もあります。</br>
+            （記載の金額は個人様向けの金額になります。　法人様であれば、まずはご相談からお願い致します。）
+        </p>
+        <p class="textnormal">
+            ・音楽</br>
+            　　基本　　　　￥50,000～</br>
+            　　歌詞込み　＋￥20,000～</br>
+            </br>
+            ・ロゴデザイン</br>
+            　　基本　　　　￥20,000～</br>
+            </br>
+            ・3Dモデル</br>
+            　　基本　　　　￥10,000～
+        </p>
 
         <!--form-->
-        <p class="textsubtitle" style="padding: 20px 0 20px 100px;">Form</p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSel678RKCsoJZCGmw4BQDhA8GhGPh8MLSwHAkbj3QWTGjW9HQ/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0" style="padding: 0 100px">読み込んでいます…</iframe>
-        
-        <!--credit-->
+        <p class="textsubtitle">- Form -</p>
+        <div class="google-form">
+            <div>
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSel678RKCsoJZCGmw4BQDhA8GhGPh8MLSwHAkbj3QWTGjW9HQ/viewform?embedded=true"
+                    width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            </div>
+        </div>
+
+        <!--footer-->>
+        <div>
+            <div class="footer-snsbtniti">
+                <ul class="snsbtniti">
+                    <li><a href="https://twitter.com/mitsuki_hotta" title="Twitter" class="twitter"><i
+                                class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/c/MitsukiHotta" title="Youtube" class="youtube"><i
+                                class="fab fa-youtube"></i></a>
+                    <li><a href="https://soundcloud.com/mitsuki_hotta" title="SoundSloud" class="soundcloud"><i
+                                class="fa-brands fa-soundcloud"></i></a>
+                    <li><a href="https://mitsuki-hotta.bandcamp.com/" title="bandcamp" class="bandcamp"><i
+                                class="fa-brands fa-bandcamp"></i></a>
+                    <li><a href="https://github.com/RINYA-Mitsuki" title="GitHub" class="github"><i
+                                class="fa-brands fa-github"></i></i></a>
+                    <li><a href="https://rinya-p.booth.pm/" title="Booth" class="booth"><i
+                                class="fa-solid fa-shop"></i></i></i></a>
+                </ul>
+            </div>
+        </div>
         <footer class="foot">
-        ©
-        2022
-        ミツキ
+            ©
+            2022
+            ミツキ
         </footer>
     </div>
 </body>

@@ -4,9 +4,18 @@ body {
   overflow-x: hidden;
 }
 
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+}
+
+.twitter-visible {
+  visibility: visible;
+}
+
 .music {
   text-align: center;
-  padding: 0 0 100px 0;
 }
 
 .logo {
@@ -23,13 +32,37 @@ body {
   gap: 5px;
 }
 
-@media screen and (max-width: 1024px) {
-  .logo {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
 .logo img,
 .model img {
   width: 100%;
+}
+
+.twitter-visible {
+  visibility: visible;
+}
+
+.google-form {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 999px) {
+  .logo {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .twitter-visible {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .logo {
+    padding: 0;
+  }
+
+  .model {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0;
+  }
 }

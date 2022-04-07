@@ -8,6 +8,22 @@
   font-style: normal;
   font-size: 50px;
   color: #e6e6e6;
+  margin-left: 100px;
+}
+
+.text-profile {
+  margin-bottom: 30px;
+  transform: rotate(0.5deg);
+}
+
+.text-works {
+  margin-bottom: 50px;
+  transform: rotate(-1deg);
+}
+
+.text-contact {
+  margin-bottom: 50px;
+  transform: rotate(1deg);
 }
 
 .textsubtitle {
@@ -18,6 +34,7 @@
   font-style: normal;
   font-size: 35px;
   color: #404040;
+  margin: 70px 0 20px 100px;
 }
 
 .textnormal {
@@ -29,10 +46,25 @@
   font-style: normal;
   font-size: 18px;
   color: #404040;
-  margin: 20px 50px 0 50px;
+  margin: 20px 100px;
 }
 
 .foot {
   text-align: center;
-  padding: 20px;
+  padding: 0 0 20px 0;
+}
+
+@media screen and (max-width: 699px) {
+  .texttitle {
+    margin-left: 20px;
+  }
+
+  .textsubtitle {
+    margin: 70px 0 20px 30px;
+  }
+
+  .textnormal {
+    margin: 20px 40px;
+    font-size: 15px;
+  }
 }
