@@ -37,10 +37,6 @@ body {
   width: 100%;
 }
 
-.twitter-visible {
-  visibility: visible;
-}
-
 .google-form {
   display: flex;
   justify-content: center;

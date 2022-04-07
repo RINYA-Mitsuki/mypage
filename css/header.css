@@ -12,6 +12,12 @@ header {
   align-items: center;
 }
 
+.sm-headerlogo {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
 .headercenter {
   display: flex;
   justify-content: center;
@@ -31,14 +37,8 @@ header {
 }
 
 .headerleft {
-  width: 30vw;
+  width: 300px;
   margin: 10px;
-}
-
-.sm-headerlogo {
-  visibility: hidden;
-  height: 0;
-  width: 0;
 }
 
 .headermenu {
