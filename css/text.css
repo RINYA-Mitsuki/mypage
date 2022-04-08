@@ -37,6 +37,18 @@
   margin: 70px 0 20px 100px;
 }
 
+.form-text {
+  position: relative;
+  z-index: 20;
+  line-height: 30px;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #404040;
+  margin: 20px 100px 20px 100px;
+}
+
 .textnormal {
   position: relative;
   z-index: 20;
@@ -62,7 +74,7 @@
 
 @media screen and (max-width: 699px) {
   .texttitle {
-    margin-left: 20px;
+    margin-left: 50px;
   }
 
   .textsubtitle {
@@ -72,5 +84,12 @@
   .textnormal {
     margin: 20px 40px 20px 40px;
     font-size: 15px;
+    line-height: 20px;
+  }
+
+  .form-text {
+    margin: 20px 40px 20px 40px;
+    font-size: 15px;
+    line-height: 30px;
   }
 }

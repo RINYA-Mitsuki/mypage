@@ -18,6 +18,11 @@ body {
   text-align: center;
 }
 
+.youtube-link {
+  width: 560px;
+  height: 315px;
+}
+
 .logo {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -42,6 +47,12 @@ body {
   justify-content: center;
 }
 
+.form-size {
+  margin: 0 0;
+  width: 800px;
+  height: 1300px;
+}
+
 @media screen and (max-width: 999px) {
   .logo {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -60,5 +71,18 @@ body {
   .model {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     padding: 0;
+  }
+
+  .form-size {
+    margin: 0 10px;
+    width: 100vw;
+    height: 1400px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .youtube-link {
+    width: 100vw;
+    height: 55vmin;
   }
 }
